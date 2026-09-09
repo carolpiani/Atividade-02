@@ -64,6 +64,7 @@ function gerarSenha() {
     campoSenha.value = senha;
     calcularForca();
 }
+
 // Calcula e exibe visualmente a força da senha
 function calcularForca() {
     let pontos = 0;
@@ -79,6 +80,7 @@ function calcularForca() {
 
     atualizarForca(pontos);
 }
+
 function atualizarForca(pontos) {
     // Reseta as classes de força
     forcaBarra.classList.remove('fraca', 'media', 'forte');
